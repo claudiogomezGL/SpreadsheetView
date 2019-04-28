@@ -154,13 +154,11 @@ public final class IndexPathCellRange: NSObject {
     }
 
     @available(*, unavailable)
-    @objc(initWithFromIndexPath:toIndexPath:)
     public convenience init(from: NSIndexPath, to: NSIndexPath) {
         self.init(from: from as IndexPath, to: to as IndexPath)
     }
 
     @available(*, unavailable)
-    @objc(cellRangeFromIndexPath:toIndexPath:)
     public class func cellRange(from: NSIndexPath, to: NSIndexPath) -> IndexPathCellRange {
         return self.init(from: from as IndexPath, to: to as IndexPath)
     }
