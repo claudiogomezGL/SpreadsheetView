@@ -92,11 +92,7 @@ public class SpreadsheetView: UIView {
     /// The default value of scrollsToTop is `true`.
     ///
     /// On iPhone, the scroll-to-top gesture has no effect if there is more than one scroll view on-screen that has `scrollsToTop` set to `true`.
-    public var scrollsToTop: Bool = true {
-        didSet {
-            tableView.scrollsToTop = scrollsToTop
-        }
-    }
+    public var scrollsToTop: Bool = true
 
     public var circularScrolling: CircularScrollingConfiguration = CircularScrolling.Configuration.none {
         didSet {
@@ -251,10 +247,7 @@ public class SpreadsheetView: UIView {
     /// The default value is false.
     public var isPagingEnabled: Bool {
         get {
-            return tableView.isPagingEnabled
-        }
-        set {
-            tableView.isPagingEnabled = newValue
+            return false
         }
     }
 

@@ -48,6 +48,32 @@
 		14CBB7F01EC8AF22005BEEB3 /* CellRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CBB7EF1EC8AF22005BEEB3 /* CellRangeTests.swift */; };
 		14EA70931EC198D600AB24EC /* SpreadsheetView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149E6A691EADE047000D851D /* SpreadsheetView.framework */; };
 		14EA70941EC198D600AB24EC /* SpreadsheetView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 149E6A691EADE047000D851D /* SpreadsheetView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E90291C02275396800FF41DB /* SpreadSheetView_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E90291BE2275396800FF41DB /* SpreadSheetView_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E90291C32275396800FF41DB /* SpreadSheetView_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90291BC2275396800FF41DB /* SpreadSheetView_tvOS.framework */; };
+		E90291C42275396800FF41DB /* SpreadSheetView_tvOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E90291BC2275396800FF41DB /* SpreadSheetView_tvOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E90291C92275398E00FF41DB /* SpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A841EADE0EA000D851D /* SpreadsheetView.swift */; };
+		E90291CA2275398E00FF41DB /* SpreadsheetView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143664CC1EB653A000321E5E /* SpreadsheetView+Layout.swift */; };
+		E90291CB2275398E00FF41DB /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E24061EBF05A00049E172 /* LayoutEngine.swift */; };
+		E90291CC2275398E00FF41DB /* SpreadsheetView+CirclularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143664CA1EB652F100321E5E /* SpreadsheetView+CirclularScrolling.swift */; };
+		E90291CD2275398E00FF41DB /* SpreadsheetView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143664C61EB6509800321E5E /* SpreadsheetView+Touches.swift */; };
+		E90291CE2275398E00FF41DB /* SpreadsheetView+UIViewHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451A0711ECEC2AF00C048DF /* SpreadsheetView+UIViewHierarchy.swift */; };
+		E90291CF2275398E00FF41DB /* SpreadsheetView+UISnapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14120FFF1EE1D7A7004E41A3 /* SpreadsheetView+UISnapshotting.swift */; };
+		E90291D02275398E00FF41DB /* SpreadsheetView+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143664C81EB6518600321E5E /* SpreadsheetView+UIScrollView.swift */; };
+		E90291D12275398E00FF41DB /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143664CE1EB655CA00321E5E /* SpreadsheetView+UIScrollViewDelegate.swift */; };
+		E90291D22275398E00FF41DB /* SpreadsheetViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A851EADE0EA000D851D /* SpreadsheetViewDataSource.swift */; };
+		E90291D32275398E00FF41DB /* SpreadsheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A861EADE0EA000D851D /* SpreadsheetViewDelegate.swift */; };
+		E90291D42275398E00FF41DB /* ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A871EADE0EA000D851D /* ScrollPosition.swift */; };
+		E90291D52275398E00FF41DB /* CircularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E23FF1EBD4D620049E172 /* CircularScrolling.swift */; };
+		E90291D62275398E00FF41DB /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A881EADE0EA000D851D /* ScrollView.swift */; };
+		E90291D72275398E00FF41DB /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A891EADE0EA000D851D /* Cell.swift */; };
+		E90291D82275398E00FF41DB /* CellRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A8B1EADE0EA000D851D /* CellRange.swift */; };
+		E90291D92275398E00FF41DB /* Gridlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B36C4E1EBF664600730F29 /* Gridlines.swift */; };
+		E90291DA2275398E00FF41DB /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B2F24F1EC031950014C199 /* Borders.swift */; };
+		E90291DB2275398E00FF41DB /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A8C1EADE0EA000D851D /* Location.swift */; };
+		E90291DC2275398E00FF41DB /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A8D1EADE0EA000D851D /* Address.swift */; };
+		E90291DD2275398E00FF41DB /* ReuseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A8E1EADE0EA000D851D /* ReuseQueue.swift */; };
+		E90291DE2275398E00FF41DB /* IndexPath+Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A8F1EADE0EA000D851D /* IndexPath+Column.swift */; };
+		E90291DF2275398E00FF41DB /* Array+BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E6A901EADE0EA000D851D /* Array+BinarySearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +98,13 @@
 			remoteGlobalIDString = 149E6A681EADE047000D851D;
 			remoteInfo = SpreadsheetView;
 		};
+		E90291C12275396800FF41DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 149E6A601EADE047000D851D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E90291BB2275396800FF41DB;
+			remoteInfo = "SpreadSheetView tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +114,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E90291C42275396800FF41DB /* SpreadSheetView_tvOS.framework in Embed Frameworks */,
 				14EA70941EC198D600AB24EC /* SpreadsheetView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -133,6 +167,9 @@
 		14B2F24F1EC031950014C199 /* Borders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Borders.swift; sourceTree = "<group>"; };
 		14B36C4E1EBF664600730F29 /* Gridlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gridlines.swift; sourceTree = "<group>"; };
 		14CBB7EF1EC8AF22005BEEB3 /* CellRangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellRangeTests.swift; sourceTree = "<group>"; };
+		E90291BC2275396800FF41DB /* SpreadSheetView_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpreadSheetView_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90291BE2275396800FF41DB /* SpreadSheetView_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpreadSheetView_tvOS.h; sourceTree = "<group>"; };
+		E90291BF2275396800FF41DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +192,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90291C32275396800FF41DB /* SpreadSheetView_tvOS.framework in Frameworks */,
 				14EA70931EC198D600AB24EC /* SpreadsheetView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90291B92275396800FF41DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +245,7 @@
 			children = (
 				149E6A6B1EADE047000D851D /* Sources */,
 				149E6A761EADE047000D851D /* Tests */,
+				E90291BD2275396800FF41DB /* SpreadSheetView tvOS */,
 				149E6A6A1EADE047000D851D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -210,6 +256,7 @@
 				149E6A691EADE047000D851D /* SpreadsheetView.framework */,
 				149E6A721EADE047000D851D /* SpreadsheetViewTests.xctest */,
 				149E6AA31EADE19F000D851D /* HostApp.app */,
+				E90291BC2275396800FF41DB /* SpreadSheetView_tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,6 +323,15 @@
 			path = HostApp;
 			sourceTree = "<group>";
 		};
+		E90291BD2275396800FF41DB /* SpreadSheetView tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E90291BE2275396800FF41DB /* SpreadSheetView_tvOS.h */,
+				E90291BF2275396800FF41DB /* Info.plist */,
+			);
+			path = "SpreadSheetView tvOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -284,6 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				149E6A911EADE0EA000D851D /* SpreadsheetView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90291B72275396800FF41DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90291C02275396800FF41DB /* SpreadSheetView_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,11 +404,30 @@
 			);
 			dependencies = (
 				14EA70961EC198D600AB24EC /* PBXTargetDependency */,
+				E90291C22275396800FF41DB /* PBXTargetDependency */,
 			);
 			name = HostApp;
 			productName = HostApp;
 			productReference = 149E6AA31EADE19F000D851D /* HostApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E90291BB2275396800FF41DB /* SpreadSheetView tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90291C52275396800FF41DB /* Build configuration list for PBXNativeTarget "SpreadSheetView tvOS" */;
+			buildPhases = (
+				E90291B72275396800FF41DB /* Headers */,
+				E90291B82275396800FF41DB /* Sources */,
+				E90291B92275396800FF41DB /* Frameworks */,
+				E90291BA2275396800FF41DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpreadSheetView tvOS";
+			productName = "SpreadSheetView tvOS";
+			productReference = E90291BC2275396800FF41DB /* SpreadSheetView_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -375,6 +458,11 @@
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
+					E90291BB2275396800FF41DB = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 27AEDK3C9F;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 149E6A631EADE047000D851D /* Build configuration list for PBXProject "SpreadsheetView" */;
@@ -393,6 +481,7 @@
 				149E6A681EADE047000D851D /* SpreadsheetView */,
 				149E6A711EADE047000D851D /* SpreadsheetViewTests */,
 				149E6AA21EADE19F000D851D /* HostApp */,
+				E90291BB2275396800FF41DB /* SpreadSheetView tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -418,6 +507,13 @@
 			files = (
 				149E6AB01EADE19F000D851D /* LaunchScreen.storyboard in Resources */,
 				149E6AAD1EADE19F000D851D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90291BA2275396800FF41DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +576,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E90291B82275396800FF41DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90291C92275398E00FF41DB /* SpreadsheetView.swift in Sources */,
+				E90291D62275398E00FF41DB /* ScrollView.swift in Sources */,
+				E90291D72275398E00FF41DB /* Cell.swift in Sources */,
+				E90291CD2275398E00FF41DB /* SpreadsheetView+Touches.swift in Sources */,
+				E90291D12275398E00FF41DB /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */,
+				E90291D42275398E00FF41DB /* ScrollPosition.swift in Sources */,
+				E90291D92275398E00FF41DB /* Gridlines.swift in Sources */,
+				E90291CB2275398E00FF41DB /* LayoutEngine.swift in Sources */,
+				E90291D82275398E00FF41DB /* CellRange.swift in Sources */,
+				E90291CF2275398E00FF41DB /* SpreadsheetView+UISnapshotting.swift in Sources */,
+				E90291CA2275398E00FF41DB /* SpreadsheetView+Layout.swift in Sources */,
+				E90291DA2275398E00FF41DB /* Borders.swift in Sources */,
+				E90291D22275398E00FF41DB /* SpreadsheetViewDataSource.swift in Sources */,
+				E90291D52275398E00FF41DB /* CircularScrolling.swift in Sources */,
+				E90291DC2275398E00FF41DB /* Address.swift in Sources */,
+				E90291DB2275398E00FF41DB /* Location.swift in Sources */,
+				E90291D32275398E00FF41DB /* SpreadsheetViewDelegate.swift in Sources */,
+				E90291DE2275398E00FF41DB /* IndexPath+Column.swift in Sources */,
+				E90291CE2275398E00FF41DB /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
+				E90291DD2275398E00FF41DB /* ReuseQueue.swift in Sources */,
+				E90291CC2275398E00FF41DB /* SpreadsheetView+CirclularScrolling.swift in Sources */,
+				E90291DF2275398E00FF41DB /* Array+BinarySearch.swift in Sources */,
+				E90291D02275398E00FF41DB /* SpreadsheetView+UIScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -497,6 +623,11 @@
 			isa = PBXTargetDependency;
 			target = 149E6A681EADE047000D851D /* SpreadsheetView */;
 			targetProxy = 14EA70951EC198D600AB24EC /* PBXContainerItemProxy */;
+		};
+		E90291C22275396800FF41DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E90291BB2275396800FF41DB /* SpreadSheetView tvOS */;
+			targetProxy = E90291C12275396800FF41DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -647,9 +778,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.SpreadsheetView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -669,9 +801,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kishikawakatsumi.SpreadsheetView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -710,6 +843,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 27AEDK3C9F;
 				INFOPLIST_FILE = Tests/HostApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -725,6 +859,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 27AEDK3C9F;
 				INFOPLIST_FILE = Tests/HostApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -732,6 +867,67 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		E90291C62275396800FF41DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 27AEDK3C9F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SpreadSheetView tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.SpreadSheetView-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		E90291C72275396800FF41DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 27AEDK3C9F;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "SpreadSheetView tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.SpreadSheetView-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
 		};
@@ -770,6 +966,15 @@
 			buildConfigurations = (
 				149E6AB31EADE19F000D851D /* Debug */,
 				149E6AB41EADE19F000D851D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90291C52275396800FF41DB /* Build configuration list for PBXNativeTarget "SpreadSheetView tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90291C62275396800FF41DB /* Debug */,
+				E90291C72275396800FF41DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
